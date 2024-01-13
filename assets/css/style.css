@@ -82,7 +82,7 @@ svg{
     
 }
 .profil_img{
-        content: url("../assets/images/image-avatar.webp");
+        content: url("../images/image-avatar.webp");
         width: 20%;
         height: 20%;
 }
