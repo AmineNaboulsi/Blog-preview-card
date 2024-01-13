@@ -17,7 +17,7 @@ body{
 }
 
 .card{
-    box-shadow: 5px 5px hsl(0, 0%, 7%);
+    box-shadow: 7px 7px hsl(0, 0%, 7%);
     height: auto;
     width: 300px;
     background-color: hsl(0, 0%, 100%);
@@ -36,49 +36,63 @@ svg{
     border-radius: 15px;
 }
 @font-face{
-    font-family: "Figtree";
-    src: URL('../assets/fonts/Figtree-Italic-VariableFont_wght.ttf'),
+    font-family: "FigtreeSemi";
+    src:
+        URL('../assets/fonts/static/Figtree-SemiBold.ttf'),
         URL('../assets/fonts/Figtree-VariableFont_wght.ttf'),
-        URL('../assets/fonts/static/Figtree-ExtraBold.ttf'),
-        URL('../assets/fonts/static/Figtree-SemiBold.ttf');
+        URL('../assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+        
 }
-.learning{
- background-color: hsl(47, 88%, 63%);
-    width: 66px;
-    height: auto;
+@font-face{
+    font-family: "FigtreeExtra";
+    src:
+        URL('../assets/fonts/static/Figtree-ExtraBold.ttf'),
+        URL('../assets/fonts/Figtree-VariableFont_wght.ttf'),
+        URL('../assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+        
+}
+.main_title{
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
     font-weight: 800;
     border-radius: 5px;
-    padding: 8px;
-    font-family: "Figtree";
+    padding:8px 12px 8px 12px;
+    font-family: "FigtreeExtra";
+
 }
-.published{
+.publication_date{
         font-size: 16px;
-        font-family: "Figtree";
-        font-weight: 600;
+        font-weight: normal;
+        font-family: "FigtreeSemi";
+        margin-top:0px;
 }
-.htmlcss{
-        font-weight: 900;
+.second_title{
+        font-weight: 800;
         font-size: 25px;
-        font-family: "Figtree";
-        color: hsl(0, 0%, 7%)
+        font-family: "FigtreeExtra";
+        color: hsl(0, 0%, 7%);
+        margin-top: 0%;
 }
-.Greg{
+.description{
+    color: hsl(0, 0%, 50%);
+    font-weight:normal;
+    font-family: "FigtreeSemi";
+    font-size: 16px;
+    margin-top: 0%;
+    
+}
+.profil_img{
         content: url("../assets/images/image-avatar.webp");
         width: 20%;
         height: 20%;
 }
-.GregHooper{
+.profil_panel{
         align-items: center;
         display: flex;
         justify-content: space-between;
-        width: 150px;
-        font-weight: 900;
-        font-family: "Figtree";
+        width: 140px;
+        font-family: "FigtreeExtra";
 }
-.description{
-        color: hsl(0, 0%, 50%);
-        font-family: "Figtree" ;
-        font-size: 20px;
-}
+
       
       
