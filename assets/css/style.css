@@ -38,17 +38,17 @@ svg{
 @font-face{
     font-family: "FigtreeSemi";
     src:
-        URL('../assets/fonts/static/Figtree-SemiBold.ttf'),
-        URL('../assets/fonts/Figtree-VariableFont_wght.ttf'),
-        URL('../assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+        URL('../fonts/static/Figtree-SemiBold.ttf'),
+        URL('../fonts/Figtree-VariableFont_wght.ttf'),
+        URL('../fonts/Figtree-Italic-VariableFont_wght.ttf');
         
 }
 @font-face{
     font-family: "FigtreeExtra";
     src:
-        URL('../assets/fonts/static/Figtree-ExtraBold.ttf'),
-        URL('../assets/fonts/Figtree-VariableFont_wght.ttf'),
-        URL('../assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+        URL('../fonts/static/Figtree-ExtraBold.ttf'),
+        URL('../fonts/Figtree-VariableFont_wght.ttf'),
+        URL('../fonts/Figtree-Italic-VariableFont_wght.ttf');
         
 }
 .main_title{
